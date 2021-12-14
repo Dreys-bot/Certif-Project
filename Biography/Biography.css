@@ -1,0 +1,31 @@
+body{
+                background: #D3D3D3;
+                margin-top:15px;
+                margin-bottom: 15px;
+            }
+#title, #title + div{
+  text-align: center;
+}
+#tribute-info{
+  max-width:600px;
+  width: auto;
+  margin:0 auto;
+}
+            
+           .point{
+               margin-right:2px;
+               font-size: 30px;
+           }
+           #image{
+               max-width: 100%;
+              display: block;
+                margin: 0 auto;
+           }
+           .contenair1{
+               background: white;
+           }
+           #img-caption{
+               margin-left:160px;
+               margin-top: 10px;
+               font-family: calibri, serif;
+           }
