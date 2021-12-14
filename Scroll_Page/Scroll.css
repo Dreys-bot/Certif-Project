@@ -1,0 +1,42 @@
+body{
+  width:100%;
+}
+.nav-link{
+  text-decoration:none;
+  color:black;
+  margin-left:5px;
+  font-family:calibri, serif;
+  font-size:20px;
+}
+#navbar{
+  max-width:300px;
+  width:290px;
+  border-right: solid gray;
+  position:fixed;
+  overflow: scroll;
+}
+
+#main-doc{
+  max-width:800px;
+  width:auto;
+  margin:0 300px;
+  font-size:18px;
+  
+}
+
+code{
+  display:block;
+  height:80px;
+  background-color:#f7f7f7;
+  padding-left:10px;
+  padding-top:20px;
+}
+
+.main-section{
+  width:45vw;
+  padding-left:50px;
+}
+
+@media only screen and (max-width: 1200px){
+   /*Tablets [601px -> 1200px]*/
+}
