@@ -1,0 +1,18 @@
+.container{
+  width:450px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+}
+body{
+  background:#1e555c;
+  color:white;
+  font-size:30px;
+}
+i{
+  margin-right:15px;
+  margin-left:15px;
+}
+
