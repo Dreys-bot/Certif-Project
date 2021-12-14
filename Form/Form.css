@@ -1,0 +1,33 @@
+#title{
+  text-align: center;
+}
+#description{
+  text-align:center;
+}
+#survey-form{
+  max-width:600px;
+  width:auto;
+  margin: 0 auto;
+  background:#2E2E4E;
+
+}
+
+.formulaire{
+  padding-left:20px;
+  padding-top:15px;
+  font-size:20px;
+  color:white;
+}
+#name, #email{
+  margin-bottom:15px;
+}
+
+#submit{
+  padding-bottom:10px;
+  margin-bottom:30px;
+  width:530px;
+  text-align:center;
+  background: green;
+  color:white;
+  font-size:20px;
+}
