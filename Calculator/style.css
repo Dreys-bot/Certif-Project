@@ -1,0 +1,53 @@
+.calculatrice *{
+  border-radius:5%;
+}
+.calculatrice{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  border:none;
+  border-radius:15px;
+  width:250px;
+  height:auto;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  grid-template-areas: 
+        "display display display display"
+        "clear clear bar fois"
+        "f f f f"
+        "b b b b"
+        "c c c egal"
+        "zero zero point egal"
+    ;
+  background: gray;
+  
+}
+
+#display {grid-area: display;}
+#clear {grid-area: clear;}
+#zero {grid-area:zero;}
+#equals{grid-area:egal;}
+
+input{
+  text-align:right;
+  background:gray;
+  height:40px;
+  border:none;
+}
+#clear{
+  background:#AC3939;
+}
+#equals{
+  background:#004466;
+}
+.couleur{
+  background: #4D4D4D;
+}
+button{
+  color:white;
+  border:none;
+}
+.couleur1{
+  background:#666666;
+}
